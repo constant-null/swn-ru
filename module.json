@@ -1,0 +1,27 @@
+{
+    "id": "swn-ru",
+    "name": "swn-ru",
+    "title": "Stars Without Number: Russian Translation",
+    "description": "Stars Without Number: Russian Translation",
+    "esmodules": ["scripts/init.js"],
+    "authors": [
+        {
+            "name": "Mark Belotskiy"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "ru",
+            "path": "i18n/swnr.json",
+            "system": "swnr"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "9"
+    },
+    
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9.000"
+}

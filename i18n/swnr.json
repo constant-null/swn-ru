@@ -1,0 +1,803 @@
+{
+    "swnr": {
+      "title": "Звезды без Числа: Revised",
+      "CharacterActorSheet": "Базовый Лист",
+      "stat": {
+        "long": {
+          "str": "Сила",
+          "dex": "Ловкость",
+          "con": "Телосложение",
+          "int": "Интелект",
+          "wis": "Мудрость",
+          "cha": "Харизма"
+        },
+        "short": {
+          "str": "СИЛ",
+          "dex": "ЛОВ",
+          "con": "ТЕЛ",
+          "int": "ИНТ",
+          "wis": "МДР",
+          "cha": "ХАР"
+        }
+      },
+      "skills": {
+        "revised": {
+          "administer": {
+            "name": "Управление",
+            "text": "Управляйте организацией, занимайтесь бумажной работой, анализируйте записи и поддерживайте ежедневное функционирование учреждения. Используйте его для проверки бюрократических и юридических знаний, управления организацией, работы с государственными органами и понимания того, как на самом деле работают учреждения."
+          },
+          "connect": {
+            "name": "Связи",
+            "text": "Найдите людей, которые могут быть полезны для достижения ваших целей, и заставьте их сотрудничать с вами. Бросьте на это умение, чтобы установить полезные связи с другими людьми, найти знакомых, узнать, где можно достать незаконные товары и услуги, а также проверить знание иностранных культур и языков. Вы можете использовать этот навык вместо умения Общение (Talk) для убеждения людей, которых вы нашли с помощью этого навыка."
+          },
+          "exert": {
+            "name": "Атлетика",
+            "text": "Используйте натренированную скорость, силу или выносливость в каком-либо физическом действии.  Используйте этот навык чтобы бегать, прыгать, подтягиваться, плавать, лазать, метать и так далее. Вы можете использовать его как боевой навык при метании предметов, хотя он не считается боевым навыком для других целей."
+          },
+          "fix": {
+            "name": "Техника",
+            "text": "Создание и ремонт устройств, как простых, так и сложных. Сложность зависит от происхождения вашего персонажа; кузнецу из затерянного мира потребуется некоторое время на обучение, прежде чем он будет готов починить сломанный термоядерный реактор, хотя в конце концов он сможет это сделать. Совершайте проверку этого навыка, чтобы чинить или создавать вещи, а также определять, что должно делать то или иное устройство."
+          },
+          "heal": {
+            "name": "Лечение",
+            "text": "Применяйте медицинские и психологические методы лечения раненых или людей с другими нарушениями. Используйте его, чтобы лечить заболевания, стабилизировать состояние тяжелораненых, лечить психологические расстройства и диагностировать болезни."
+          },
+          "know": {
+            "name": "Знание",
+            "text": "Знание фактов в академических или научных областях. Бросайте его, чтобы понять планетарную экологию, вспомнить историю, раскрыть научные тайны и узнать основные факты о редких или эзотерических темах."
+          },
+          "lead": {
+            "name": "Лидерство",
+            "text": "Убедите других людей делать то, что вы пытаетесь сделать. Общение (Talk) может убедить их в том, что следовать за вами разумно, но Лидерство может заставить их сделать это даже тогда, когда они считают это плохой идеей. Бросайте этот навык, чтобы вести войска в бой, убеждать других следовать за вами или поддерживать мораль и дисциплину."
+          },
+          "notice": {
+            "name": "Внимание",
+            "text": "Замечайте аномалии или интересные факты в вашем окружении. Бросайте его для обыска помещений, обнаружения засад, обнаружения спрятанных вещей и чтения эмоционального состояния других людей."
+          },
+          "perform": {
+            "name": "Выступление",
+            "text": "Продемонстрировать некоторое исполнительское мастерство. Бросьте этот навык чтобы танцевать, петь, ораторствовать, исполнять роль или иным образом показывать убедительное или эмоционально трогательное представление."
+          },
+          "pilot": {
+            "name": "Пилотирование",
+            "text": "Используйте это умение, чтобы управлять транспортными средствами или ездить на животных. Бросайте этот навык, чтобы управлять космическими кораблями, водить машины, ездить на животных или производить первичный ремонт транспортных средств. Этот навык не поможет вам в делах, выходящих за рамки вашей биографии или опыта, хотя с некоторой практикой персонаж может расширить свою компетенцию."
+          },
+          "program": {
+            "name": "Компьютеры",
+            "text": "Управление или взлом вычислительной и коммуникационной техники. Используйте этот навык для разработки программ или взлома компьютеров, управления компьютерным оборудованием, работы с техникой связи или дешифровки."
+          },
+          "punch": {
+            "name": "Драка",
+            "text": "Используйте его как боевой навык, когда сражаетесь без оружия. Если ваш персонаж хочет сделать это своим привычным занятием, а не прибегать к нему только в крайнем случае, вам следует взять фокус Рукопашный Боец, описанный ниже."
+          },
+          "shoot": {
+            "name": "Стрельба",
+            "text": "Используйте его как боевой навык при использовании дальнобойного оружия, будь то метательные камни, луки, лазерные пистолеты, боевые винтовки или корабельная артиллерия."
+          },
+          "sneak": {
+            "name": "Скрытность",
+            "text": "Двигайтесь, не привлекая внимания. Бросайте для проверки скрытности, маскировки, проникновения, ловкости рук, карманных краж и преодоления мер безопасности."
+          },
+          "stab": {
+            "name": "Фехтование",
+            "text": "Используйте его как боевой навык, когда используете оружие ближнего боя оружия, как примитивного, так и более сложного."
+          },
+          "survive": {
+            "name": "Выживание",
+            "text": "Находите пищу, воду и убежище во враждебной среде, избегая ее естественных опасностей. Чтобы справиться с животными, преодолеть труднопроходимую местность, отыскать ресурсы в заброшенном городе, изготовить простейшие орудия и избежать нападения диких зверей или банд, используйте этот навык."
+          },
+          "talk": {
+            "name": "Общение",
+            "text": "Убедите других людей в фактах, в которые вы хотите, чтобы они поверили. Правда, что они будут делать с этим фактами, может оказаться не совсем предсказуемым. Бросайте этот навык, чтобы убедить, очаровать или обмануть других во время разговора."
+          },
+          "trade": {
+            "name": "Торговля",
+            "text": "Найдите на рынке то, что вам нужно, и продайте то, что у вас есть. Используйте этот навык, чтобы продавать или покупать вещи, выяснять, где купить труднодоступные или запрещенные товары, иметь дело с таможенными агентами или вести бизнес."
+          },
+          "work": {
+            "name": "Профессия",
+            "text": "Это универсальный навык для профессий, не представленных другими навыками. Бросьте его, чтобы работать в определенной профессии, искусстве или ремесле."
+          }
+        },
+        "spaceMagic": {
+          "knowMagic": {
+            "name": "Know Magic",
+            "text": ""
+          },
+          "useMagic": {
+            "name": "Use Magic",
+            "text": ""
+          },
+          "sunblade": {
+            "name": "Sunblade",
+            "text": ""
+          },
+          "fight": {
+            "name": "Fight",
+            "text": ""
+          }
+        },
+        "classic": {
+          "artist": {
+            "name": "Artist",
+            "text": ""
+          },
+          "athletics": {
+            "name": "Athletics",
+            "text": ""
+          },
+          "bureaucracy": {
+            "name": "Bureaucracy",
+            "text": ""
+          },
+          "business": {
+            "name": "Business",
+            "text": ""
+          },
+          "combat-energy": {
+            "name": "Combat/Energy",
+            "text": ""
+          },
+          "combat-gunnery": {
+            "name": "Combat/Gunnery",
+            "text": ""
+          },
+          "combat-primitive": {
+            "name": "Combat/Primitive",
+            "text": ""
+          },
+          "combat-projectile": {
+            "name": "Combat/Projectile",
+            "text": ""
+          },
+          "combat-psitech": {
+            "name": "Combat/Psitech",
+            "text": ""
+          },
+          "combat-unarmed": {
+            "name": "Combat/Unarmed",
+            "text": ""
+          },
+          "computer": {
+            "name": "Computer",
+            "text": ""
+          },
+          "culture-alien": {
+            "name": "Culture/Alien/",
+            "text": ""
+          },
+          "culture-criminal": {
+            "name": "Culture/Criminal",
+            "text": ""
+          },
+          "culture-spacer": {
+            "name": "Culture/Spacer",
+            "text": ""
+          },
+          "culture-traveller": {
+            "name": "Culture/Traveller",
+            "text": ""
+          },
+          "culture": {
+            "name": "Culture/",
+            "text": ""
+          },
+          "exosuit": {
+            "name": "Exosuit",
+            "text": ""
+          },
+          "gambling": {
+            "name": "Gambling",
+            "text": ""
+          },
+          "history": {
+            "name": "History",
+            "text": ""
+          },
+          "instructor": {
+            "name": "Instructor",
+            "text": ""
+          },
+          "language": {
+            "name": "Language",
+            "text": ""
+          },
+          "leadership": {
+            "name": "Leadership",
+            "text": ""
+          },
+          "navigation": {
+            "name": "Navigation",
+            "text": ""
+          },
+          "perception": {
+            "name": "Perception",
+            "text": ""
+          },
+          "persuade": {
+            "name": "Persuade",
+            "text": ""
+          },
+          "profession": {
+            "name": "Profession/",
+            "text": ""
+          },
+          "religion": {
+            "name": "Religion",
+            "text": ""
+          },
+          "science": {
+            "name": "Science",
+            "text": ""
+          },
+          "security": {
+            "name": "Security",
+            "text": ""
+          },
+          "stealth": {
+            "name": "Stealth",
+            "text": ""
+          },
+          "steward": {
+            "name": "Steward",
+            "text": ""
+          },
+          "survival": {
+            "name": "Survival",
+            "text": ""
+          },
+          "tactics": {
+            "name": "Tactics",
+            "text": ""
+          },
+          "tech-astronautic": {
+            "name": "Tech/Astronautic",
+            "text": ""
+          },
+          "tech-maltech": {
+            "name": "Tech/Maltech",
+            "text": ""
+          },
+          "tech-medical": {
+            "name": "Tech/Medical",
+            "text": ""
+          },
+          "tech-postech": {
+            "name": "Tech/Postech",
+            "text": ""
+          },
+          "tech-pretech": {
+            "name": "Tech/Pretech",
+            "text": ""
+          },
+          "tech-psitech": {
+            "name": "Tech/Psitech",
+            "text": ""
+          },
+          "vehicle-air": {
+            "name": "Vehicle/Air",
+            "text": ""
+          },
+          "vehicle-grav": {
+            "name": "Vehicle/Grav",
+            "text": ""
+          },
+          "vehicle-land": {
+            "name": "Vehicle/Land",
+            "text": ""
+          },
+          "vehicle-space": {
+            "name": "Vehicle/Space",
+            "text": ""
+          },
+          "vehicle-water": {
+            "name": "Vehicle/Water",
+            "text": ""
+          }
+        },
+        "psionic": {
+          "biopsionics": {
+            "name": "Биопсионика",
+            "text": "Овладейте силами восстановления и усиления тела, а также изменения облика."
+          },
+          "metapsionics": {
+            "name": "Метапсионика",
+            "text": "Овладейте силами которые сводят на нет, усиливают и регулируют использование других псионных способностей."
+          },
+          "precognition": {
+            "name": "Предвидение",
+            "text": "Овладейте силами предчувствовать будущие события и контролировать вероятности."
+          },
+          "telekinesis": {
+            "name": "Телекинез",
+            "text": "Овладейте силами дистанционного управления кинетической энергией для перемещения объектов и создания конструкций из силы."
+          },
+          "telepathy": {
+            "name": "Телепатия",
+            "text": "Овладейте силами чтения мыслей и влияния на разум других разумных существ."
+          },
+          "teleportation": {
+            "name": "Телепортация",
+            "text": "Овладейте искусством физического перемещения себя и союзников."
+          }
+        },
+        "original": {},
+        "labels": {
+          "spaceMagic": "Space Magic",
+          "classic": "Classic",
+          "revised": "Revised",
+          "psionic": "Psionic"
+        }
+      },
+      "sheet": {
+        "background": "Происхождение",
+        "class": "Класс",
+        "homeworld": "Родной мир",
+        "species": "Вид/Пол",
+        "level": "Ур.",
+        "stats": "Атрибуты",
+        "base": "Баз.",
+        "boosts": "Улучш.",
+        "bonus": "Бонус",
+        "total": "Общ.",
+        "modifier": "Модификатор",
+        "temp": "Врем.",
+        "mod": "Мод",
+        "saves": {
+          "luck": "Удача",
+          "physical": "Физический",
+          "mental": "Ментальный",
+          "evasion": "Уклонение"
+        },
+        "name": "Имя",
+        "armor-class": "Класс Брони",
+        "armor": "Броня",
+        "hp": "ОЗ",
+        "permanent-strain": "Перм. Стресс",
+        "attack-bonus": "Бонус Атаки",
+        "system-strain": "Стресс Организма",
+        "ss": "Стресс",
+        "ac": "КБ",
+        "ab": "БА",
+        "tabs": {
+          "biography": "Биография",
+          "debug": "Sheet Debug",
+          "skills": "Навыки",
+          "weapons": "Оружия",
+          "inventory": "Инвентарь",
+          "armor": "Броня",
+          "foci": "Фокус",
+          "other": "Другое",
+          "powers": "Силы",
+          "combat": "Бой",
+          "stats": "Атрибуты"
+        },
+        "xp": "XP",
+        "power": "Силы",
+        "resources": "Ресурсы",
+        "delete-item": "Delete Item",
+        "show-item": "Show Item",
+        "edit-item": "Edit Item",
+        "reload-item": "Reload Item",
+        "add-item": "Add Item",
+        "break-item": "Break/Disable Item",
+        "jury-rig": "Jury-Rig Item",
+        "fix-item": "Fix Item",
+        "destroy-item": "Destroy Item",
+        "ask": "Спросить",
+        "description": "Описание:",
+        "ammoType": "Тип Боеприпасов",
+        "longReload": "Долгая Перезарядка",
+        "burst": "Огонь Очередью",
+        "magazine": "Magazine",
+        "suppress": "Огонь на Подавление",
+        "skill": "Навык",
+        "employer": "Наниматель",
+        "source": "Дисциплина",
+        "factionname": "Факция",
+        "movement": "Движение",
+        "base-ac": "Баховый КБ",
+        "vs": "vs",
+        "rollables": "Rollables",
+        "roll-skill": "Бросить Навык",
+        "hit-dice": "Кубик Здоровья",
+        "command-points": "Командные Очки",
+        "npc-command-points": "КО Корабля NPC",
+        "unspent-skill": "Свободные Очки Навыков",
+        "unspent-psy-skill": "Свободные Очки Псионных Навыков",
+        "add-skill": "Добавить Навык",
+        "level-up": "Поднять Уровень",
+        "rest": "Ночной сон",
+        "rest-desc": "Воспользоваться хорошим ночным сном (сбросить усилие, уменьшить стресс, восстановить ОЗ)?",
+        "rest-title": "Воспользоваться хорошим ночным сно?",
+        "cyberware": {
+          "disabled": "Отключено",
+          "strain": "Стресс",
+          "name": "Киберимпланты"
+        },
+        "type": {
+          "mech": "Mech",
+          "ship": "Ship",
+          "vehicle": "Vehicle",
+          "drone": "Drone",
+          "desc": "Ship/Mech/Vehicle/Drone"
+        },
+        "mech": {
+          "name": "Mech Name",
+          "mechClass": {
+            "suit": "Suit",
+            "light": "Light",
+            "heavy": "Heavy"
+          },
+          "mech-class": "Mech Class",
+          "mech-hull": "Mech Hull Type",
+          "pilot": "Pilot"
+        },
+        "drone": {
+          "enc": "Encumbrance",
+          "range": "Range",
+          "tl": "TL",
+          "name": "Drone Name",
+          "fittings": "Fittings (mass)",
+          "model": "Model",
+          "models": {
+            "custom": "Custom",
+            "primitive-drone": "Primitive Drone",
+            "void-hawk": "Void Hawk",
+            "stalker": "Stalker",
+            "cuttlefish": "Cuttlefish",
+            "ghostwalker": "Ghostwalker",
+            "sleeper": "Sleeper",
+            "pax": "Pax",
+            "alecto": "Alecto"
+          }
+        },
+        "vehicle": {
+          "tonnage": "Tonnage",
+          "kmph": "KM/H",
+          "tl": "TL",
+          "name": "Vehicle Name",
+          "size": "Size",
+          "vehicle-class": {
+            "s": "S",
+            "m": "M",
+            "l": "L"
+          }
+        },
+        "faction": {
+          "forceRating": "Force Rating",
+          "cunningRating": "Cunning Rating",
+          "wealthRating": "Wealth Rating",
+          "facCreds": "FacCreds",
+          "xp": "XP",
+          "homeworld": "Homeworld",
+          "tags": "Tags",
+          "assets": "Assets",
+          "assetType": "Asset Type",
+          "baseOfInfluence": "Base of Influence",
+          "attackSource": "Source",
+          "attackTarget": "Target",
+          "attackDamage": "Damage",
+          "attackSpecial": "Special Attack Note",
+          "counter": "Counter",
+          "note": "Заметка",
+          "turnRoll": "On Turn Log/Roll",
+          "stealthed": "Is Stealthed?",
+          "tl": "ТУ",
+          "rating": "Рейтинг",
+          "hp": "ОЗ",
+          "assets-tab": "Имущество",
+          "desc-tab": "Описание",
+          "tags-tab": "Тэги",
+          "log-tab": "Журнал",
+          "add-tag": "Добавить Иэг",
+          "add-tag-custom": "Добавить свой Тэг",
+          "remove-tag": "Убрать Тэг",
+          "remove-log": "Убрать запись Журнала",
+          "add-log": "Добавить свою запись Журнала",
+          "remove-log-all": "Убрать все записи Журнала",
+          "active": "Active Faction",
+          "attack-roll": "Attack Hit Roll",
+          "counter-roll": "Counter Hit Roll",
+          "damage": "Damage",
+          "attack": "Attack",
+          "att-damage": "Attack Damage",
+          "def-damage": "Counter Damage",
+          "att-roll": "Attacker Roll",
+          "def-roll": "Defender Roll",
+          "factionGoal": "Faction Goal",
+          "factionGoalDesc": "Goal Description",
+          "setGoal": "Set Goal",
+          "location": "Location",
+          "maintenance": "Maintenance",
+          "income": "Income",
+          "unusable": "Unusable",
+          "turn": "Start Turn",
+          "setHomeworld": "Set the faction homeworld to {name}?",
+          "abandonGoal": "Abandon current goal {name}? Will lose income and no actions this turn/"
+        },
+        "ship": {
+          "life-support-days": "Life Support Days",
+          "fuel": "Топливо",
+          "power": "Питание",
+          "mass": "Тоннаж",
+          "speed": "Скорость",
+          "hard-points": "Точки Подвески",
+          "ship-class": "Класс Корабля",
+          "min-ship-class": "Мин. Класс",
+          "ship-hull-type": "Тип Корпуса",
+          "cargo": "Грузовой Отсек",
+          "operating-cost": "Operating Cost",
+          "maintenance-cost": "Maintenance Cost",
+          "amount-owed": "Amount Owed",
+          "credit-pool": "Ship's Credit Pool",
+          "payment-amount": "Payment Amount",
+          "payment-months": "Months Between Payments",
+          "maintenance-months": "Months Between Maintenance",
+          "last-payment": "Last Payment Date (YYYY/MM/DD)",
+          "cost": "Cost",
+          "last-maintenance": "Last Maintenance (YYYY/MM/DD)",
+          "calc-cost": "Calculate the cost for the ship (using hull and items)",
+          "make-payment": "Make a payment (using ship's pool)",
+          "pay-maintenance": "Pay maintenance (using ship's pool)",
+          "crew": "Экипаж (мин/тек/макс)",
+          "shipHullType": {
+            "strikeFighter": "Strike Fighter",
+            "shuttle": "Shuttle",
+            "freeMerchant": "Free Merchant",
+            "patrolBoat": "Patrol Boat",
+            "corvette": "Corvette",
+            "heavyFrigate": "Heavy Frigate",
+            "bulkFreighter": "Bulk Freighter",
+            "fleetCruiser": "Fleet Cruiser",
+            "battleship": "Battleship",
+            "carrier": "Carrier",
+            "smallStation": "Small Station",
+            "largeStation": "Large Station"
+          },
+          "shipClass": {
+            "fighter": "Истребитель",
+            "frigate": "Фригат",
+            "cruiser": "Крейсер",
+            "capital": "Крупный Боевой"
+          },
+          "weapons": "Оружие",
+          "weapon": "Оружие",
+          "defense": "Защита",
+          "fittings": "Оборудование",
+          "stations": "Stations",
+          "weapons-tab": "Weapons/Defense/Fittings",
+          "notes-tab": "Notes/ Description",
+          "crew-tab": "Crew Members",
+          "cost-tab": "Ship Costs",
+          "cargo-tab": "Cargo",
+          "crew-name": "Crew Member",
+          "crew-skill-bonus": "NPC Ship Crew Bonus",
+          "crew-skill-bonus-note": "(Mod to attack and skill rolls)",
+          "name": "Name",
+          "dmg": "Урон",
+          "qualities": "Свойства",
+          "effect": "Эффект",
+          "broken": "Is Broken?",
+          "destroyed": "Is Destroyed?",
+          "jury-rigged": "Is Jury-Rigged?",
+          "shooter": "Shooting",
+          "travel": "Дней в Пути",
+          "spike": "Пиковое Бурение",
+          "spike-drive": "Пиковый Двигатель",
+          "crisis": "Кризис",
+          "system-failure": "Сбой Систем(ы)",
+          "repair-all": "Починить Все",
+          "sensor-roll": "Проверка Сенсоров",
+          "refuel": "Заправить",
+          "costMultiplier": "Scale cost by class",
+          "powerMultiplier": "Scale power by class",
+          "massMultiplier": "Scale mass by class",
+          "station": {
+            "captain": "Captain",
+            "gunnery": "Gunnery",
+            "bridge": "Bridge",
+            "engineering": "Engineering",
+            "comms": "Comms",
+            "role": "Station",
+            "crew": "Crew"
+          },
+          "cargo-name": "Cargo Name / Description"
+        },
+        "tweaks": "Tweaks"
+      },
+      "settings": {
+        "useRollNPCHD": "Use NPC HD on token create?",
+        "useRollNPCHDHint": "When creating a npc token, if the HP or Hit Dice (HD) has not been rolled, it will roll d8 HD for health automatically.",
+        "useHomebrewLuckSave": "Use Homebrew Luck saves?",
+        "useHomebrewLuckSaveHint": "Uses 16 - Level for the save, no modifiers, just pure luck",
+        "addShockMessage": "Add Shock Damage Message?",
+        "addShockMessageHint": "When attacking this adds another roll for shock damage in the attack chat message.",
+        "showTempAttrMod": "Show Temporary Attribute Total Modifiers?",
+        "showTempAttrModHint": "On the character sidebar show the temporary modifiers to an attribute (e.g. attribute damage)"
+      },
+      "chat": {
+        "dicepool": "Кубики",
+        "difficulty": "Сложность",
+        "modifier": "Модификатор",
+        "roll": "Бросить",
+        "cancel": "Cancel",
+        "skillCheck": "Проверка Навыка",
+        "savingThrow": "Спасбросок",
+        "statApply": "Apply stats to {name}",
+        "totalModifier": "Общий Модификатор",
+        "statRoll": "Roll stats",
+        "savemoddesc": "(Положительный делает бросок легче, отрицательный сложнее)",
+        "spike": {
+          "fail3": "Catastrophic dimensional energy incursion.  Ship emerges around a star within 1d6 hexes  of the target destination with drive and all systems destroyed.",
+          "fail4-5": "Shear surge overwhelms internal systems. Ship emerges around star nearest to drill origin. 50% chance for each system to be disabled until repaired. If the spike drive is disabled, treat as if a 3 were rolled.",
+          "fail6-8": "Power spike. One system disabled until repaired, ship stuck in transit for full  base time before being able to make another Pilot check. If the spike drive fails, treat as if a 3 were rolled.",
+          "fail9-12": "Ship off course. Spend base time in transit, then make another Pilot check.",
+          "fail13-15": "Ship off course, but detected early. Make another Pilot check.",
+          "fail16-17": "Drill successful, but takes twice base time",
+          "fail18": "Drill successful and on time, by blind luck."
+        }
+      },
+      "ammo": {
+        "ammo": "Стандартные Боеприпасы",
+        "missile": "Ракеты",
+        "none": "Нет",
+        "special": "Specialty",
+        "typeAPower": "Батарея типа A",
+        "typeBPower": "Батарея типа B",
+        "infinite": "Бесконечные"
+      },
+      "foci": {
+        "level2": "Уровень 2:",
+        "level1": "Уровень 1:",
+        "level": "Текущий Уровень"
+      },
+      "item": {
+        "bundledCount": "Bundle Count",
+        "cost": "Цена",
+        "encumbrance": "Нагрузка",
+        "enc": "Нагр.",
+        "qty": "Кол.",
+        "quality": {
+          "stock": "Обычное",
+          "label": "Качество",
+          "juryRigged": "Импровизированное",
+          "mastercrafted": "Исскусное"
+        },
+        "techlevel": "Тех. Уровень",
+        "quantity": "Количество",
+        "location": "Состояние",
+        "locationOther": "Другое",
+        "locationStowed": "Упакованное",
+        "locationReadied": "Подготовленное",
+        "range": "Дистанционное",
+        "favorite": "Избранное"
+      },
+      "weapon": {
+        "shock": {
+          "label": "Урон Шока",
+          "damage": "Урон",
+          "ac": "КБ"
+        },
+        "damageFormula": "Формула Урона",
+        "attackBonus": "Бонус Атаки",
+        "ammo": "Боеприпасы",
+        "noSetSkill": "No Skill Set",
+        "burst": "Use Burst Fire",
+        "skillAddDamage": "Skill adds to damage",
+        "skillAddShockDamage": "Skill adds to shock",
+        "remember": "Запомнить выбор (не спрашивать снова, сбрасывается при редактировании)"
+      },
+      "titles": {
+        "savingThrow": "{throwType} Saving Throw"
+      },
+      "effort": {
+        "bonus": "Бонус",
+        "current": "Направлено",
+        "day": "На День",
+        "scene": "На Сцену",
+        "title": "Усилие",
+        "max": "Максимальное"
+      },
+      "dialog": {
+        "attackRoll": "{actorName} attacking with {weaponName}?",
+        "spikeRoll": "{actorName} making spike roll",
+        "sensorRoll": "{actorName} making sensor roll",
+        "sysFailure": "Rolling system failures for {actorName}",
+        "skillRoll": "Rolling skill for {actorName}",
+        "failure": {
+          "inc-drive": "Include Drive (Spike Level Drop)",
+          "inc-wpn": "Include Weapons",
+          "inc-fit": "Include Fittings",
+          "inc-def": "Include Defenses",
+          "what": "What to fail? <br>(disabling/breaking an already disabled system will destroy it)",
+          "dest-all": "Destroy All",
+          "break-all": "Break/disable All",
+          "all-50": "50% chance to break/disable each system",
+          "break-1": "Break/disable one system"
+        },
+        "add-skills": "Add Skills",
+        "add-bulk-skills": "Add Bulk Skills to {actor}",
+        "tweak-char": "Tweaking options for {actorName}",
+        "save-changes": "Save Changes",
+        "tweak": {
+          "adv-init": "Initiative Advantage (roll 2x and keep higher)",
+          "quick-skill-1": "Quick Skill 1",
+          "quick-skill-2": "Quick Skill 2",
+          "quick-skill-3": "Quick Skill 3",
+          "extra-effort-name": "Extra Effort Name (leave blank to not show on sheet)",
+          "show-resource-list": "On the combat tab, show optional resource tracking.  This allows you to add an arbitrary resource that tracks a value and max (just 2 numbers really) with  a customized name. You can delete these attributes  from the list."
+        },
+        "hp": {
+          "text": "Select the base dice per level you want to roll (with con bonus added).",
+          "revised": "Revised Expert/Psychic d6",
+          "revised-war": "Revised Warrior/Partial Warrior d6+2",
+          "codex-mage": "Arcanist / Magister d6-1",
+          "classic-psy": "Classic Psychic d4",
+          "classic-exp": "Classic Expert d6",
+          "classic-war": "Classic Warrior d8"
+        }
+      },
+      "roll": {
+        "skillNeeded": "Эй! Тебе нужно выбрать навык!"
+      },
+      "armor": {
+        "type": {
+          "combat": "Боевая",
+          "label": "Тип",
+          "powered": "Силовая",
+          "primitive": "Примитивная",
+          "street": "Уличная"
+        },
+        "innateArmorClass": "Врожд. Класс Брони",
+        "equipped": "Экипирован",
+        "shield": "Считается Щитом"
+      },
+      "npc": {
+        "reaction": {
+          "unknown": "Неизвестно",
+          "hostile": "Враждебная",
+          "negative": "Отрицательная",
+          "neutral": "Нейтральная",
+          "positive": "Положительная",
+          "friendly": "Дружественная"
+        },
+        "morale-check": "Morale Check",
+        "trained-skill": "Trained Skill",
+        "attacks-per-turn": "Attacks Per Turn",
+        "attack-bonus-hit": "Attack Bonus Hit",
+        "attack-bonus-damage": "Attack Bonus Damage",
+        "abilities": "Способности",
+        "combat": "Combat",
+        "equipment": "Снаряжение",
+        "skilled-with-weapon": "Skilled with Weapon",
+        "morale": {
+          "failure": "Fails their Moral Check!",
+          "success": "Succeeds in their Moral Check!"
+        },
+        "skill": {
+          "trained": "{actor} uses their trained skill.",
+          "untrained": "{actor} uses their untrained skill."
+        },
+        "unarmed": "Unarmed",
+        "saving": {
+          "failure": "{actor} failed (target: {target})",
+          "success": "{actor} succeeded (target: {target})"
+        }
+      },
+      "migration": {
+        "start": "SWNR: Starting migration from {oldVersion} to {newVersion}. Please let this finish before closing.",
+        "done": "SWNR: Done Migration to {newVersion}",
+        "needsGM": "SWNR: A GM needs to log in to do run {count} migrations from {oldVersion} to {newVersion}!"
+      },
+      "credits": {
+        "debts": "Долги",
+        "balance": "Баланс",
+        "owed": "Должны"
+      },
+      "deleteTitle": "Delete {name}?",
+      "deleteCrew": "Do you want to remove {name} from the crew?",
+      "deletePilot": "Do you want to remove {name} as the pilot?",
+      "deleteContent": "Are you sure you want to delete {name} from the actor {actor}?"
+    }
+  }

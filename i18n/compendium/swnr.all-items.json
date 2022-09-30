@@ -1,0 +1,265 @@
+{
+	"label": "All Items",
+	"entries": [
+		{
+			"id": "Ammo, 20 rounds",
+			"name": "Ammo, 20 rounds"
+		},
+		{
+			"id": "Ammo, missile",
+			"name": "Ammo, missile"
+		},
+		{
+			"id": "Atmofilter",
+			"name": "Atmofilter"
+		},
+		{
+			"id": "Backpack (TL 0)",
+			"name": "Backpack (TL 0)"
+		},
+		{
+			"id": "Backpack (TL 4)",
+			"name": "Backpack (TL 4)"
+		},
+		{
+			"id": "Bezoar",
+			"name": "Bezoar"
+		},
+		{
+			"id": "Binoculars (TL 3)",
+			"name": "Binoculars (TL 3)"
+		},
+		{
+			"id": "Binoculars (TL 4)",
+			"name": "Binoculars (TL 4)"
+		},
+		{
+			"id": "Bioscanner",
+			"name": "Bioscanner"
+		},
+		{
+			"id": "Black slab",
+			"name": "Black slab"
+		},
+		{
+			"id": "Brainwave",
+			"name": "Brainwave"
+		},
+		{
+			"id": "Climbing harness",
+			"name": "Climbing harness"
+		},
+		{
+			"id": "Comm server",
+			"name": "Comm server"
+		},
+		{
+			"id": "Compad",
+			"name": "Compad"
+		},
+		{
+			"id": "Data phase tap",
+			"name": "Data phase tap"
+		},
+		{
+			"id": "Data protocol",
+			"name": "Data protocol"
+		},
+		{
+			"id": "Dataslab",
+			"name": "Dataslab"
+		},
+		{
+			"id": "Field radio",
+			"name": "Field radio"
+		},
+		{
+			"id": "Glowbug",
+			"name": "Glowbug"
+		},
+		{
+			"id": "Grapnel launcher",
+			"name": "Grapnel launcher"
+		},
+		{
+			"id": "Grav chute (TL 4)",
+			"name": "Grav chute (TL 4)"
+		},
+		{
+			"id": "Grav chute (TL 5)",
+			"name": "Grav chute (TL 5)"
+		},
+		{
+			"id": "Grav harness",
+			"name": "Grav harness"
+		},
+		{
+			"id": "Hush",
+			"name": "Hush"
+		},
+		{
+			"id": "Instapanel",
+			"name": "Instapanel"
+		},
+		{
+			"id": "Lazarus patch",
+			"name": "Lazarus patch"
+		},
+		{
+			"id": "Lift",
+			"name": "Lift"
+		},
+		{
+			"id": "Line shunt",
+			"name": "Line shunt"
+		},
+		{
+			"id": "Low-light goggles",
+			"name": "Low-light goggles"
+		},
+		{
+			"id": "Medkit",
+			"name": "Medkit"
+		},
+		{
+			"id": "Metatool",
+			"name": "Metatool"
+		},
+		{
+			"id": "Navcomp",
+			"name": "Navcomp"
+		},
+		{
+			"id": "Portabox",
+			"name": "Portabox"
+		},
+		{
+			"id": "Power cell, type A",
+			"name": "Power cell, type A"
+		},
+		{
+			"id": "Power cell, type B",
+			"name": "Power cell, type B"
+		},
+		{
+			"id": "Pressure tent",
+			"name": "Pressure tent"
+		},
+		{
+			"id": "Pretech Cosmetic",
+			"name": "Pretech Cosmetic"
+		},
+		{
+			"id": "Psych",
+			"name": "Psych"
+		},
+		{
+			"id": "Rations, 1 day",
+			"name": "Rations, 1 day"
+		},
+		{
+			"id": "Remote link unit",
+			"name": "Remote link unit"
+		},
+		{
+			"id": "Reverie",
+			"name": "Reverie"
+		},
+		{
+			"id": "Rope, 20 meters (TL 0)",
+			"name": "Rope, 20 meters (TL 0)"
+		},
+		{
+			"id": "Rope, 20 meters (TL 4)",
+			"name": "Rope, 20 meters (TL 4)"
+		},
+		{
+			"id": "Scout report",
+			"name": "Scout report"
+		},
+		{
+			"id": "Solar recharger",
+			"name": "Solar recharger"
+		},
+		{
+			"id": "Spare parts",
+			"name": "Spare parts"
+		},
+		{
+			"id": "Squeal",
+			"name": "Squeal"
+		},
+		{
+			"id": "Stiletto charge",
+			"name": "Stiletto charge"
+		},
+		{
+			"id": "Storage unit",
+			"name": "Storage unit"
+		},
+		{
+			"id": "Survey scanner",
+			"name": "Survey scanner"
+		},
+		{
+			"id": "Survival kit",
+			"name": "Survival kit"
+		},
+		{
+			"id": "Tailored antiallergens",
+			"name": "Tailored antiallergens"
+		},
+		{
+			"id": "Telekinetic generator",
+			"name": "Telekinetic generator"
+		},
+		{
+			"id": "Telescoping pole",
+			"name": "Telescoping pole"
+		},
+		{
+			"id": "Thermal flare",
+			"name": "Thermal flare"
+		},
+		{
+			"id": "Tightbeam link unit",
+			"name": "Tightbeam link unit"
+		},
+		{
+			"id": "Toolkit/Postech",
+			"name": "Toolkit/Postech"
+		},
+		{
+			"id": "Toolkit/Pretech",
+			"name": "Toolkit/Pretech"
+		},
+		{
+			"id": "Trade goods",
+			"name": "Trade goods"
+		},
+		{
+			"id": "Trade metals",
+			"name": "Trade metals"
+		},
+		{
+			"id": "Translator torc",
+			"name": "Translator torc"
+		},
+		{
+			"id": "Tsunami",
+			"name": "Tsunami"
+		},
+		{
+			"id": "Vacc fresher",
+			"name": "Vacc fresher"
+		},
+		{
+			"id": "Vacc skin",
+			"name": "Vacc skin"
+		},
+		{
+			"id": "Vacc suit",
+			"name": "Vacc suit"
+		}
+	]
+}
