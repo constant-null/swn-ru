@@ -3,7 +3,9 @@
     "name": "swn-ru",
     "title": "Stars Without Number: Russian Translation",
     "description": "Stars Without Number: Russian Translation",
-    "esmodules": ["scripts/init.js"],
+    "esmodules": [
+        "scripts/init.js"
+    ],
     "authors": [
         {
             "name": "Mark Belotskiy"
@@ -21,7 +23,9 @@
         "minimum": "9",
         "verified": "9"
     },
-    
     "minimumCoreVersion": "0.8.9",
-    "compatibleCoreVersion": "9.000"
+    "compatibleCoreVersion": "9.000",
+    "url": "https://github.com/constant-null/swn-ru",
+    "manifest": "https://github.com/constant-null/swn-ru/releases/latest/download/system.json",
+    "download": "https://github.com/constant-null/swn-ru/releases/download/1.0.0/swn-ru.zip"
 }
