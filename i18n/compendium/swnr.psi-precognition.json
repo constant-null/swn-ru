@@ -1,0 +1,49 @@
+{
+	"label": "Precognition",
+	"entries": [
+		{
+			"id": "Alternate Outcome",
+			"name": "Alternate Outcome"
+		},
+		{
+			"id": "Anguished Vision",
+			"name": "Anguished Vision"
+		},
+		{
+			"id": "Cursed Luck",
+			"name": "Cursed Luck"
+		},
+		{
+			"id": "Destiny’s Shield",
+			"name": "Destiny’s Shield"
+		},
+		{
+			"id": "Forced Outcome",
+			"name": "Forced Outcome"
+		},
+		{
+			"id": "Intuitive Response",
+			"name": "Intuitive Response"
+		},
+		{
+			"id": "Not My Time",
+			"name": "Not My Time"
+		},
+		{
+			"id": "Oracle",
+			"name": "Oracle"
+		},
+		{
+			"id": "Prophecy",
+			"name": "Prophecy"
+		},
+		{
+			"id": "Sense the Need",
+			"name": "Sense the Need"
+		},
+		{
+			"id": "Terminal Reflection",
+			"name": "Terminal Reflection"
+		}
+	]
+}

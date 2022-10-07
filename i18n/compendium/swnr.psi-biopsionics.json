@@ -1,0 +1,53 @@
+{
+	"label": "Biopsionics",
+	"entries": [
+		{
+			"id": "Accelerated Succor",
+			"name": "Accelerated Succor"
+		},
+		{
+			"id": "Holistic Optimization Patterning",
+			"name": "Holistic Optimization Patterning"
+		},
+		{
+			"id": "Invincible Stand",
+			"name": "Invincible Stand"
+		},
+		{
+			"id": "Major Organ Restoration",
+			"name": "Major Organ Restoration"
+		},
+		{
+			"id": "Mastered Succor",
+			"name": "Mastered Succor"
+		},
+		{
+			"id": "Metamorph",
+			"name": "Metamorph"
+		},
+		{
+			"id": "Organic Purification Protocols",
+			"name": "Organic Purification Protocols"
+		},
+		{
+			"id": "Psychic Succor",
+			"name": "Psychic Succor"
+		},
+		{
+			"id": "Quintessential Reconstruction",
+			"name": "Quintessential Reconstruction"
+		},
+		{
+			"id": "Remote Repair",
+			"name": "Remote Repair"
+		},
+		{
+			"id": "Teratic Overload",
+			"name": "Teratic Overload"
+		},
+		{
+			"id": "Tissue Integrity Field",
+			"name": "Tissue Integrity Field"
+		}
+	]
+}

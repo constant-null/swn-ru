@@ -1,0 +1,57 @@
+{
+	"label": "Metapsionics",
+	"entries": [
+		{
+			"id": "Cloak Powers",
+			"name": "Cloak Powers"
+		},
+		{
+			"id": "Concert of Minds",
+			"name": "Concert of Minds"
+		},
+		{
+			"id": "Flawless Mastery",
+			"name": "Flawless Mastery"
+		},
+		{
+			"id": "Impervious Pavis of Will",
+			"name": "Impervious Pavis of Will"
+		},
+		{
+			"id": "Metadimensional Friction",
+			"name": "Metadimensional Friction"
+		},
+		{
+			"id": "Mindtracing",
+			"name": "Mindtracing"
+		},
+		{
+			"id": "Neural Trap",
+			"name": "Neural Trap"
+		},
+		{
+			"id": "Psychic Refinement",
+			"name": "Psychic Refinement"
+		},
+		{
+			"id": "Psychic Static",
+			"name": "Psychic Static"
+		},
+		{
+			"id": "Psychic Tutelage",
+			"name": "Psychic Tutelage"
+		},
+		{
+			"id": "Surge Momentum",
+			"name": "Surge Momentum"
+		},
+		{
+			"id": "Suspended Manifestation",
+			"name": "Suspended Manifestation"
+		},
+		{
+			"id": "Synthetic Adaptation",
+			"name": "Synthetic Adaptation"
+		}
+	]
+}

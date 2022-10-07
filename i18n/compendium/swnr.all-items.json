@@ -1,9 +1,13 @@
 {
 	"label": "All Items",
+	"mapping": {
+		"description": "data.description"
+	},
 	"entries": [
 		{
 			"id": "Ammo, 20 rounds",
-			"name": "Ammo, 20 rounds"
+			"name": "Ammo, 20 rounds",
+			"description":""
 		},
 		{
 			"id": "Ammo, missile",

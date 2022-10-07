@@ -1,0 +1,41 @@
+{
+	"label": "Telepathy",
+	"entries": [
+		{
+			"id": "Facile Mind",
+			"name": "Facile Mind"
+		},
+		{
+			"id": "Far Thought",
+			"name": "Far Thought"
+		},
+		{
+			"id": "Memory Editing",
+			"name": "Memory Editing"
+		},
+		{
+			"id": "Reflex Response",
+			"name": "Reflex Response"
+		},
+		{
+			"id": "Suppress Cognition",
+			"name": "Suppress Cognition"
+		},
+		{
+			"id": "Telepathic Assault",
+			"name": "Telepathic Assault"
+		},
+		{
+			"id": "Telepathic Contact",
+			"name": "Telepathic Contact"
+		},
+		{
+			"id": "Transmit Thought",
+			"name": "Transmit Thought"
+		},
+		{
+			"id": "Unity of Thought",
+			"name": "Unity of Thought"
+		}
+	]
+}

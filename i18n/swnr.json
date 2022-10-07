@@ -363,8 +363,9 @@
           "biography": "Биография",
           "debug": "Sheet Debug",
           "skills": "Навыки",
-          "weapons": "Оружия",
+          "weapons": "Оружие",
           "inventory": "Инвентарь",
+          "item": "Предметы", 
           "armor": "Броня",
           "foci": "Фокус",
           "other": "Другое",
@@ -517,12 +518,12 @@
           "abandonGoal": "Abandon current goal {name}? Will lose income and no actions this turn/"
         },
         "ship": {
-          "life-support-days": "Life Support Days",
+          "life-support-days": "Дневные Припасы",
           "fuel": "Топливо",
           "power": "Питание",
           "mass": "Тоннаж",
           "speed": "Скорость",
-          "hard-points": "Точки Подвески",
+          "hard-points": "Узлы Подвески",
           "ship-class": "Класс Корабля",
           "min-ship-class": "Мин. Класс",
           "ship-hull-type": "Тип Корпуса",
@@ -588,21 +589,83 @@
           "crisis": "Кризис",
           "system-failure": "Сбой Систем(ы)",
           "repair-all": "Починить Все",
-          "sensor-roll": "Проверка Сенсоров",
+          "sensor-roll": "Сканировать",
           "refuel": "Заправить",
           "costMultiplier": "Scale cost by class",
           "powerMultiplier": "Scale power by class",
           "massMultiplier": "Scale mass by class",
           "station": {
-            "captain": "Captain",
-            "gunnery": "Gunnery",
-            "bridge": "Bridge",
-            "engineering": "Engineering",
-            "comms": "Comms",
-            "role": "Station",
-            "crew": "Crew"
+            "captain": "Капитан",
+            "gunnery": "Орудия",
+            "bridge": "Мостик",
+            "engineering": "Инжинерия",
+            "comms": "Связь",
+            "role": "Пост",
+            "crew": "Экипаж"
           },
-          "cargo-name": "Cargo Name / Description"
+          "cargo-name": "Cargo Name / Description",
+          "actions": {
+            "startRound": {
+              "title": "Начать Раунд (порядок отделов)"
+            },
+            "endRound": {
+              "title": "Завершить Раунд"
+            },
+            "aboveAndBeyond": {
+              "title": "Превзойти Себя"
+            },
+            "dealCrisis": {
+              "title": "Справится с кризисом"
+            },
+            "doYourDuty": {
+              "title": "Работаем Как Обычно"
+            },
+            "escape": {
+              "title": "Сбежать из Боя"
+            },
+            "evasive": {
+              "title": "Маневры Уклонения"
+            },
+            "pursue": {
+              "title": "Маневры Уклонения"
+            },
+            "intoFire": {
+              "title": "Из Огня да в Полымя"
+            },
+            "keepTogether": {
+              "title": "Держите Себя в Руках"
+            },
+            "supportDept": {
+              "title": "Поддержать Отдел"
+            },
+            "crashSys": {
+              "title": "Обрушение Систем"
+            },
+            "defeatECM": {
+              "title": "Подавить РЭБ"
+            },
+            "sensorGhost": {
+              "title": "Сенсорный Фантом"
+            },
+            "boostEngine": {
+              "title": "Форсировать Двигатели"
+            },
+            "damageControl": {
+              "title": "Контроль Повреждений"
+            },
+            "emergencyRepair": {
+              "title": "Срочный Ремонт"
+            },
+            "fireAll": {
+              "title": "Огонь из Всех Орудий"
+            },
+            "fireOne": {
+              "title": "Огонь из Одного Орудия"
+            },
+            "targetSystem": {
+              "title": "Навестись на Систему"
+            }
+          }
         },
         "tweaks": "Tweaks"
       },
@@ -653,7 +716,7 @@
         "level": "Текущий Уровень"
       },
       "item": {
-        "bundledCount": "Bundle Count",
+        "bundledCount": "Кол. в Пачке",
         "cost": "Цена",
         "encumbrance": "Нагрузка",
         "enc": "Нагр.",
@@ -668,8 +731,8 @@
         "quantity": "Количество",
         "location": "Состояние",
         "locationOther": "Другое",
-        "locationStowed": "Упакованное",
-        "locationReadied": "Подготовленное",
+        "locationStowed": "Упакован.",
+        "locationReadied": "Подготовлен.",
         "range": "Дистанционное",
         "favorite": "Избранное"
       },
@@ -689,7 +752,7 @@
         "remember": "Запомнить выбор (не спрашивать снова, сбрасывается при редактировании)"
       },
       "titles": {
-        "savingThrow": "{throwType} Saving Throw"
+        "savingThrow": "{throwType} Спасбросок"
       },
       "effort": {
         "bonus": "Бонус",
@@ -768,12 +831,12 @@
         "attack-bonus-hit": "Attack Bonus Hit",
         "attack-bonus-damage": "Attack Bonus Damage",
         "abilities": "Способности",
-        "combat": "Combat",
+        "combat": "Бой",
         "equipment": "Снаряжение",
         "skilled-with-weapon": "Skilled with Weapon",
         "morale": {
-          "failure": "Fails their Moral Check!",
-          "success": "Succeeds in their Moral Check!"
+          "failure": "Проваливает Проверку Морали!",
+          "success": "Проходит Проверку Морали!"
         },
         "skill": {
           "trained": "{actor} uses their trained skill.",
@@ -781,8 +844,8 @@
         },
         "unarmed": "Unarmed",
         "saving": {
-          "failure": "{actor} failed (target: {target})",
-          "success": "{actor} succeeded (target: {target})"
+          "failure": "{actor} провалился (сложность: {target})",
+          "success": "{actor} преуспел (сложность: {target})"
         }
       },
       "migration": {
@@ -792,8 +855,8 @@
       },
       "credits": {
         "debts": "Долги",
-        "balance": "Баланс",
-        "owed": "Должны"
+        "balance": "Кредиты",
+        "owed": "Вам Должны"
       },
       "deleteTitle": "Delete {name}?",
       "deleteCrew": "Do you want to remove {name} from the crew?",

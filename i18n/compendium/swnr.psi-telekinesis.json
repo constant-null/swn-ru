@@ -1,0 +1,57 @@
+{
+	"label": "Telekinesis",
+	"entries": [
+		{
+			"id": "Force Puppetry",
+			"name": "Force Puppetry"
+		},
+		{
+			"id": "Impact Sump",
+			"name": "Impact Sump"
+		},
+		{
+			"id": "Kinetic Transversal",
+			"name": "Kinetic Transversal"
+		},
+		{
+			"id": "Pressure Field",
+			"name": "Pressure Field"
+		},
+		{
+			"id": "Reactive Telekinesis",
+			"name": "Reactive Telekinesis"
+		},
+		{
+			"id": "Slip Field",
+			"name": "Slip Field"
+		},
+		{
+			"id": "Tangible Force Construct",
+			"name": "Tangible Force Construct"
+		},
+		{
+			"id": "Telekinetic Armory",
+			"name": "Telekinetic Armory"
+		},
+		{
+			"id": "Telekinetic Expertise",
+			"name": "Telekinetic Expertise"
+		},
+		{
+			"id": "Telekinetic Flight",
+			"name": "Telekinetic Flight"
+		},
+		{
+			"id": "Telekinetic Manipulation",
+			"name": "Telekinetic Manipulation"
+		},
+		{
+			"id": "Telekinetic Ram",
+			"name": "Telekinetic Ram"
+		},
+		{
+			"id": "Thermokinesis",
+			"name": "Thermokinesis"
+		}
+	]
+}
